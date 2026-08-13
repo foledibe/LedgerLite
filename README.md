@@ -33,7 +33,7 @@ ledger-lite/
 └── README.md # Project documentation (this file)
 ```
 
-- **schema.sql** is the blueprint for the database. It defines three tables — customers, products, and sales — and links them together using primary and foreign keys.
+- **schema.sql** is the blueprint for the database. It defines three tables (customers, products, and sales) and links them together using primary and foreign keys.
 - **build_ledger.py** reads schema.sql to create the actual database file (ledger.db), then inserts sample customers, products, and sales transactions so there's real data to work with.
 - **insights.py** connects to ledger.db and runs a set of SQL queries that answer real business questions, printing the results to the terminal.
 
