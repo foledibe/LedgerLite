@@ -1,0 +1,6 @@
+# Generated database file (rebuild it by running build_ledger.py)
+ledger.db
+
+# Python junk
+__pycache__/
+*.pyc
