@@ -17,9 +17,9 @@ business insights.
 
 ## Tech Stack
 
-- **Python** — scripts to build the database and run queries
-- **SQLite** — a lightweight, file-based SQL database (via Python's built-in `sqlite3` module)
-- **SQL** — used for schema design and all data queries (JOINs, GROUP BY, aggregates)
+- **Python** : scripts to build the database and run queries
+- **SQLite** : a lightweight, file-based SQL database (via Python's built-in `sqlite3` module)
+- **SQL** : used for schema design and all data queries (JOINs, GROUP BY, aggregates)
 
 ## Project Structure
 
