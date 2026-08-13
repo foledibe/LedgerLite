@@ -1,16 +1,16 @@
 # LedgerLite 📒
 
-A lightweight sales ledger for small businesses — built with **Python** and **SQL (SQLite)**.
+A lightweight sales ledger for small businesses built with **Python** and **SQL (SQLite)**.
 
 LedgerLite keeps track of who's buying, what's selling, and how the
 business is doing, then turns that raw data into answers: best sellers,
-top customers, and revenue by category — all with a few lines of SQL.
+top customers, and revenue by category all with a few lines of SQL.
 
 ## Overview
 
 This project simulates a small retail business. It models three core
-pieces of any sales operation — customers, products, and the sales
-transactions that connect them — using a relational SQLite database.
+pieces of any sales operation (customers, products, and the sales
+transactions) that connect them using a relational SQLite database.
 Python scripts handle building the database, filling it with sample
 data, and running SQL queries that turn that raw data into useful
 business insights.
@@ -25,11 +25,13 @@ business insights.
 
 Here's what each file in this repo does:
 
+```
 ledger-lite/
 ├── schema.sql # Defines the tables (customers, products, sales)
 ├── build_ledger.py # Builds ledger.db and stocks it with sample data
 ├── insights.py # Turns raw data into business insights
 └── README.md # Project documentation (this file)
+```
 
 - **schema.sql** is the blueprint for the database. It defines three tables — customers, products, and sales — and links them together using primary and foreign keys.
 - **build_ledger.py** reads schema.sql to create the actual database file (ledger.db), then inserts sample customers, products, and sales transactions so there's real data to work with.
